@@ -1,0 +1,25 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+/config/conexion.php
+
+# Dependencies and generated files
+/vendor/
+/node_modules/
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+
+# Local database exports and snapshots
+*.dump
+*.sql.gz
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+/.idea/
+/.vscode/*
+!/.vscode/extensions.json
